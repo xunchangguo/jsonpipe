@@ -60,7 +60,8 @@ To use jsonpipe, the server should
         "withCredentials": true // Boolean. Send cookies when making cross-origin requests; default is true
     });
 ```
-```text/plain response
+text/plain response
+```JavaScript
     var jsonpipe = require('jsonpipe');
 	/**
      * @param {String} url A string containing the URL to which the request is sent.
